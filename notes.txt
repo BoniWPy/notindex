@@ -1,0 +1,11 @@
+##add into header on index.html
+
+<meta name=‘robots’ content=‘noindex, follow’ />
+
+##add robot.txt
+
+User-agent: *
+Disallow: /
+Disallow: /NamaFolder/
+Disallow: /NamaFile.php
+
